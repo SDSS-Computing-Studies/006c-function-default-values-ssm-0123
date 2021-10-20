@@ -14,3 +14,9 @@ assert title() == "=========\n= Title =\n========="
 (2 points)
 
 """
+
+def title(a='='):
+    print(a*9)
+    print(a,"Title",a)
+    print(a*9)
+
