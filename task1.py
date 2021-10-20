@@ -22,10 +22,6 @@ assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Hav
 (2 points) 
 """
 
-def sentence():
-  return ""
-
-
-if __name__ == "__main__":
-  assert sentence("Hello") == "Hello Benjamin. How are you"
-  assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Have you enjoyed your meal"
+def sentence(a,b="Benjamin",c="How are you"):
+  say = a+" "+b+". "+c
+  return say
