@@ -16,7 +16,4 @@ assert title() == "=========\n= Title =\n========="
 """
 
 def title(a='='):
-    print(a*9)
-    print(a,"Title",a)
-    print(a*9)
-
+    print(a*9+"\n"+a,"Title",a,"\n"+a*9)
